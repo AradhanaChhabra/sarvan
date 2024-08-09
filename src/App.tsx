@@ -41,7 +41,7 @@ function App(): JSX.Element {
 		<Layout>
 			<div
 				className={clsx(
-					"flex flex-col pt-[18px] pl-[25px] overflow-y-scroll h-[calc(100lvh-11px)] pb-[24px] overflow-x-hidden flex-shrink !w-full container",
+					"flex flex-col pt-[18px] px-[25px] overflow-y-scroll h-[calc(100lvh-11px)] pb-[24px] overflow-x-hidden flex-shrink !w-full container",
 					scrollbarVisible ? "scrollbar scrollbar-visible" : ""
 				)}
 			>
