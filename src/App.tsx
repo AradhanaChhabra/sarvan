@@ -67,7 +67,7 @@ function App(): JSX.Element {
 					))}
 				</div>
 
-				<div className="grid grid-cols-[162.08px,164px] justify-between gap-x-[13.9px] gap-y-[47px]">
+				<div className="grid grid-cols-[162.08px,164px] md:grid-cols-4 justify-between gap-x-[13.9px] gap-y-[47px]">
 					{ARTWORK_DATA.map((artwork, i) => (
 						<ImageCard key={i} {...artwork} />
 					))}
