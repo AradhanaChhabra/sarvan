@@ -11,18 +11,19 @@ interface ITextProps {
 	className?: string;
 }
 
-export type TTextSizes = "small" | "medium" | "large";
+export type TTextSizes = "small" | "medium" | "large" | "extraSmall";
 
 export type TTextColors = "black" | "light-gray" | "white" | "red";
 
 export const COLORS: Record<TTextColors, string> = {
 	black: "text-black",
-	"light-gray": "text-black text-opacity-50",
+	"light-gray": "text-black text-opacity-35",
 	white: "text-white",
 	red: "text-new-red",
 };
 
 const SIZES: Record<TTextSizes, string> = {
+	extraSmall: "text-extra-small",
 	small: "text-sm",
 	medium: "text-lg",
 	large: "text-xl",

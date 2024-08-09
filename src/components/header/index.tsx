@@ -10,7 +10,9 @@ const Header = ({ name }: { name: string }): JSX.Element => {
 				<Text bold size="large">
 					Welcome,
 				</Text>
-				<Text>{name}</Text>
+				<Text bold size="large">
+					{name}
+				</Text>
 			</div>
 		</div>
 	);
