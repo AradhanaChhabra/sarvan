@@ -3,6 +3,9 @@ module.exports = {
 	content: ["./src/**/*.{html,js,tsx,jsx}"],
 	theme: {
 		extend: {
+			screens: {
+				phone: "390px",
+			},
 			fontFamily: {
 				syne: [
 					"Syne",
@@ -27,6 +30,8 @@ module.exports = {
 				sculpture: "rgba(5, 243, 0, 1)",
 
 				drawing: "rgba(243, 0, 0, 1)",
+
+				footer: "rgba(0, 0, 0, 0.88)",
 			},
 
 			borderRadius: {

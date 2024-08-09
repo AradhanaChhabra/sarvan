@@ -28,6 +28,25 @@
 		url(../fonts/Syne/static/Syne-Regular.ttf) format("truetype");
 }
 
+.scrollbar {
+	/* Custom scrollbar styles */
+	&::-webkit-scrollbar {
+		width: 25.31px;
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: transparent;
+		/* Arrow icon */
+		background-image: url("../public/assets/scroll.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
+/* 
+.container.scrollbar-visible {
+	@apply !pr-0; /* remove right padding when scrollbar is visible */
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
