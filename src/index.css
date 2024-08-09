@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Syne";
+	font-weight: 700;
+	src: local("Syne"), url(../fonts/Syne/static/Syne-Bold.ttf) format("truetype");
+}
+
+/* @font-face {
+	font-family: "Lato";
+	font-weight: 900;
+	src: local("Lato"), url(./fonts/Lato-Bold.otf) format("truetype");
+}
+
+@font-face {
+	font-family: "Lato";
+	font-weight: 900;
+	src: local("Lato"), url(./fonts/Lato-Black.otf) format("truetype");
+} */
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}

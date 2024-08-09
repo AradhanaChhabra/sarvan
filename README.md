@@ -1,46 +1,46 @@
-# Frontend Design Assignment
+# Getting Started with Create React App
 
-## Instructions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. **Create Your Repository:**
+## Available Scripts
 
-   - Click on the "Use this template" button at the top of this repository to create your own repository from this template.
-2. **Clone Your Repository:**
+In the project directory, you can run:
 
-   - Clone your repository to your local machine:
-     ```bash
-     git clone https://YOUR-GIT-HOST/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-     ```
-3. **Implement the Design:**
+### `npm start`
 
-   - Replicate the provided Figma design using the frontend framework of your choice.
-4. **Push Your Changes:**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-   - Push your changes to your GitHub repository:
-     ```bash
-     git add .
-     git commit -m "Initial implementation"
-     git push origin main
-     ```
-5. **Submit Your Repository Link:**
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-   - Submit the link to your repository using this form - https://forms.gle/WLBJwweKuHDUAZc29
-   - **Ensure that you either keep the repository public or give read access to vansh@sarvan.eu. Else, your submission will not be accepted.**
+### `npm test`
 
-## Figma Design
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-https://www.figma.com/design/mW0qBuALhYrajea8Z3duQx/Frontend-Assessment?t=MwBjkomL7PkRErb2-1
+### `npm run build`
 
-## Requirements
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Use any frontend framework you are comfortable with (React, Angular, Vue, etc.)
-- Write clean, maintainable, and self-documented code.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Evaluation Criteria
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Design match percentage.
-- Attention to detail.
-- Code quality.
-- Performance.
+### `npm run eject`
 
-There is no expectation but you will catch our eye amongst the pool of candidates if you go above and beyond in any manner (e.g. responsive design, live demo link, setup documentation, etc.)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
